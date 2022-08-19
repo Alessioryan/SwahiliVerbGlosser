@@ -48,13 +48,13 @@ class Verb{
     private VRoot vRoot;
     
     public static void main(String[] args){
-        while(true){
+        //while(true){
             Scanner console = new Scanner(System.in);
             System.out.print("What Swahili verb would you like to decompose? ");
             Verb testVerb = SwahiliVerb.decompose(console.next().trim().toLowerCase() );
             System.out.println("Remaking your verb, you get: " + SwahiliVerb.makeSwaVerb(testVerb) );
             analyze(testVerb);
-        }
+        //}
     }
     
     public Verb(String originalVerb, boolean isNegative, Subject subject, Tense tense, Object object, VRoot vRoot){
