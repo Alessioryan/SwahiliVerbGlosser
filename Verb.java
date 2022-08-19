@@ -55,6 +55,7 @@ class Verb{
             System.out.println("Remaking your verb, you get: " + SwahiliVerb.makeSwaVerb(testVerb) );
             analyze(testVerb);
         //}
+        //Comment just for a change
     }
     
     public Verb(String originalVerb, boolean isNegative, Subject subject, Tense tense, Object object, VRoot vRoot){
